@@ -1,8 +1,8 @@
 namespace Matching_Game_V2
 {
-    public partial class Form1 : Form
+    public partial class Ana_menu : Form
     {
-        public Form1()
+        public Ana_menu()
         {
             InitializeComponent();
         }
