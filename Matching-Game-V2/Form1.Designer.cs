@@ -31,7 +31,7 @@
             btnTek = new Button();
             btnIki = new Button();
             label1 = new Label();
-            label2 = new Label();
+            lblScore = new Label();
             comboBox1 = new ComboBox();
             label3 = new Label();
             SuspendLayout();
@@ -45,6 +45,7 @@
             btnTek.TabIndex = 0;
             btnTek.Text = "Tek Oyunculu";
             btnTek.UseVisualStyleBackColor = false;
+            btnTek.Click += btnTek_Click;
             // 
             // btnIki
             // 
@@ -66,15 +67,15 @@
             label1.TabIndex = 1;
             label1.Text = "Score: ";
             // 
-            // label2
+            // lblScore
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            label2.Location = new Point(189, 268);
-            label2.Name = "label2";
-            label2.Size = new Size(37, 45);
-            label2.TabIndex = 2;
-            label2.Text = "0";
+            lblScore.AutoSize = true;
+            lblScore.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 162);
+            lblScore.Location = new Point(189, 268);
+            lblScore.Name = "lblScore";
+            lblScore.Size = new Size(37, 45);
+            lblScore.TabIndex = 2;
+            lblScore.Text = "0";
             // 
             // comboBox1
             // 
@@ -104,7 +105,7 @@
             ClientSize = new Size(728, 392);
             Controls.Add(label3);
             Controls.Add(comboBox1);
-            Controls.Add(label2);
+            Controls.Add(lblScore);
             Controls.Add(label1);
             Controls.Add(btnIki);
             Controls.Add(btnTek);
@@ -119,7 +120,7 @@
         private Button btnTek;
         private Button btnIki;
         private Label label1;
-        private Label label2;
+        private Label lblScore;
         private ComboBox comboBox1;
         private Label label3;
     }

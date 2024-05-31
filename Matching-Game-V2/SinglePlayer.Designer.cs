@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             tableLayoutPanel1 = new TableLayoutPanel();
             i16 = new Label();
             i15 = new Label();
@@ -46,8 +47,10 @@
             i2 = new Label();
             i9 = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
+            txtSure = new TextBox();
             btnBasla = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            timer2 = new System.Windows.Forms.Timer(components);
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -272,13 +275,13 @@
             label1.TabIndex = 1;
             label1.Text = "Süre";
             // 
-            // textBox1
+            // txtSure
             // 
-            textBox1.Location = new Point(605, 51);
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(128, 23);
-            textBox1.TabIndex = 2;
+            txtSure.Location = new Point(605, 51);
+            txtSure.Name = "txtSure";
+            txtSure.ReadOnly = true;
+            txtSure.Size = new Size(128, 23);
+            txtSure.TabIndex = 2;
             // 
             // btnBasla
             // 
@@ -291,6 +294,16 @@
             btnBasla.UseVisualStyleBackColor = false;
             btnBasla.Click += btnBasla_Click;
             // 
+            // timer1
+            // 
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
+            // 
+            // timer2
+            // 
+            timer2.Interval = 750;
+            timer2.Tick += timer2_Tick;
+            // 
             // SinglePlayer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -298,7 +311,7 @@
             BackColor = Color.Beige;
             ClientSize = new Size(800, 450);
             Controls.Add(btnBasla);
-            Controls.Add(textBox1);
+            Controls.Add(txtSure);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Name = "SinglePlayer";
@@ -312,7 +325,7 @@
 
         private TableLayoutPanel tableLayoutPanel1;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtSure;
         private Button btnBasla;
         private Label i1;
         private Label i16;
@@ -330,5 +343,7 @@
         private Label i4;
         private Label i3;
         private Label i2;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
     }
 }
