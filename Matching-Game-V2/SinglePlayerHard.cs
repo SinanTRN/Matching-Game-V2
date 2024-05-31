@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Matching_Game_V2
 {
-    public partial class SinglePlayerMiddle : Form
+    public partial class SinglePlayerHard : Form
     {
         Random random = new Random();
         List<string> simgeler;
@@ -18,11 +18,11 @@ namespace Matching_Game_V2
         Label firstClicked;
         Label secondClicked;
         int sure;
-        string readScore = File.ReadAllText("scoreMiddle.txt", Encoding.UTF8);
+        string readScore = File.ReadAllText("scoreHard.txt", Encoding.UTF8);
         int score = 10000;
         int sayac = 0;
         int total = 0;
-        public SinglePlayerMiddle()
+        public SinglePlayerHard()
         {
             InitializeComponent();
             InitializeLabelList();
@@ -33,7 +33,7 @@ namespace Matching_Game_V2
         }
         public void ScoreUpdate()
         {
-            File.WriteAllText("scoreMiddle.txt", sure + "", Encoding.UTF8);
+            File.WriteAllText("scoreHard.txt", sure + "", Encoding.UTF8);
         }
         private void CheckForWinner()
         {
@@ -58,7 +58,10 @@ namespace Matching_Game_V2
                             "!", "!", "N", "N", ",", ",", "k", "k",
                             "b", "b", "v", "v", "w", "w", "z", "z",
                             "m","m","d","d","f","f","l","l","s","s",
-                            "B","B","F","F","J","J","V","V",";",";"
+                            "B","B","F","F","J","J","V","V",";",";",
+                            "a","a","c","c","e","e","g","g","h","h",
+                            "i","i","j","j","n","n","o","o","p","p",
+                            "r","r","t","t","u","u","y","y"
                             };
         }
         private void labelleriSifirla()
@@ -87,7 +90,7 @@ namespace Matching_Game_V2
             {
                 if (int.TryParse(label.Name.Substring(1), out int number))
                 {
-                    return number >= 1 && number <= 36;
+                    return number >= 1 && number <= 64;
                 }
             }
             return false;
@@ -134,6 +137,7 @@ namespace Matching_Game_V2
                 timer2.Start();
             }
         }
+
         private void btnBasla_Click(object sender, EventArgs e)
         {
             randomAta();
@@ -141,6 +145,7 @@ namespace Matching_Game_V2
             sayac = 0;
             timer1.Start();
         }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             txtSure.Text = sure.ToString();
@@ -150,6 +155,7 @@ namespace Matching_Game_V2
                 timer1.Stop();
             }
         }
+
         private void timer2_Tick(object sender, EventArgs e)
         {
             timer2.Stop();
@@ -158,7 +164,5 @@ namespace Matching_Game_V2
             firstClicked = null;
             secondClicked = null;
         }
-
-
     }
 }
