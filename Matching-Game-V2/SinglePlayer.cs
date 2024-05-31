@@ -34,8 +34,7 @@ namespace Matching_Game_V2
         }
         public void ScoreUpdate()
         {
-            string yazilacak = JsonSerializer.Serialize<string>(sure.ToString());
-            File.WriteAllText("score.txt", yazilacak, Encoding.UTF8);
+            File.WriteAllText("score.txt", sure+"", Encoding.UTF8);
         }
         private void CheckForWinner()
         {

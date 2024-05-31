@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnTek = new Button();
             btnIki = new Button();
             label1 = new Label();
             lblScore = new Label();
-            comboBox1 = new ComboBox();
+            txtZorluk = new ComboBox();
             label3 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // btnTek
@@ -77,15 +79,15 @@
             lblScore.TabIndex = 2;
             lblScore.Text = "0";
             // 
-            // comboBox1
+            // txtZorluk
             // 
-            comboBox1.BackColor = Color.MintCream;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Kolay", "Orta", "Zor" });
-            comboBox1.Location = new Point(554, 72);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 3;
+            txtZorluk.BackColor = Color.MintCream;
+            txtZorluk.FormattingEnabled = true;
+            txtZorluk.Items.AddRange(new object[] { "Kolay", "Orta", "Zor" });
+            txtZorluk.Location = new Point(554, 72);
+            txtZorluk.Name = "txtZorluk";
+            txtZorluk.Size = new Size(121, 23);
+            txtZorluk.TabIndex = 3;
             // 
             // label3
             // 
@@ -97,6 +99,12 @@
             label3.TabIndex = 4;
             label3.Text = "Zorluk";
             // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 2000;
+            timer1.Tick += timer1_Tick;
+            // 
             // Ana_menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -104,7 +112,7 @@
             BackColor = Color.Beige;
             ClientSize = new Size(728, 392);
             Controls.Add(label3);
-            Controls.Add(comboBox1);
+            Controls.Add(txtZorluk);
             Controls.Add(lblScore);
             Controls.Add(label1);
             Controls.Add(btnIki);
@@ -121,7 +129,8 @@
         private Button btnIki;
         private Label label1;
         private Label lblScore;
-        private ComboBox comboBox1;
+        private ComboBox txtZorluk;
         private Label label3;
+        private System.Windows.Forms.Timer timer1;
     }
 }
