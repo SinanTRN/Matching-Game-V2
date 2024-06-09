@@ -56,7 +56,7 @@
             btnIki.Name = "btnIki";
             btnIki.Size = new Size(187, 143);
             btnIki.TabIndex = 0;
-            btnIki.Text = "İki Oyunculu";
+            btnIki.Text = "Çift Oyunculu";
             btnIki.UseVisualStyleBackColor = false;
             // 
             // label1
@@ -65,15 +65,15 @@
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 162);
             label1.Location = new Point(79, 268);
             label1.Name = "label1";
-            label1.Size = new Size(115, 45);
+            label1.Size = new Size(166, 45);
             label1.TabIndex = 1;
-            label1.Text = "Score: ";
+            label1.Text = "Best Time:";
             // 
             // lblScore
             // 
             lblScore.AutoSize = true;
             lblScore.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            lblScore.Location = new Point(189, 268);
+            lblScore.Location = new Point(241, 268);
             lblScore.Name = "lblScore";
             lblScore.Size = new Size(37, 45);
             lblScore.TabIndex = 2;
@@ -118,7 +118,7 @@
             Controls.Add(btnIki);
             Controls.Add(btnTek);
             Name = "Ana_menu";
-            Text = "Aana Menü";
+            Text = "Ana Menü";
             ResumeLayout(false);
             PerformLayout();
         }

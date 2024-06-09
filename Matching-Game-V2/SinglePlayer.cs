@@ -19,7 +19,6 @@ namespace Matching_Game_V2
         Label firstClicked;
         Label secondClicked;
         int sure;
-        string readScore = File.ReadAllText("score.txt",Encoding.UTF8);
         int score = 10000;
         int sayac = 0;
         int total = 0;
@@ -32,8 +31,18 @@ namespace Matching_Game_V2
             timer1.Stop();
             timer2.Stop();
         }
+        private int readScoreText()
+        {
+            string readScore="0";
+            if (File.Exists("score.txt"))
+                readScore = File.ReadAllText("score.txt", Encoding.UTF8);
+            return Convert.ToInt32(readScore);
+        }
         public void ScoreUpdate()
         {
+            if (!File.Exists("score.txt"))
+                File.Create("score.txt");
+
             File.WriteAllText("score.txt", sure+"", Encoding.UTF8);
         }
         private void CheckForWinner()
@@ -50,7 +59,7 @@ namespace Matching_Game_V2
             }
             timer2.Stop();
             timer1.Stop();
-            if(Convert.ToInt32(readScore)>sure) ScoreUpdate();
+            if(readScoreText()>sure) ScoreUpdate();
             MessageBox.Show(sure + " saniyede bitirdiniz", "Tebrikler");
         }
         private void InitializeIcons()

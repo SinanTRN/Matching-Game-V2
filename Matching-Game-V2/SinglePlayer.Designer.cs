@@ -96,7 +96,7 @@
             i16.Name = "i16";
             i16.Size = new Size(98, 91);
             i16.TabIndex = 14;
-            i16.Text = "c";
+            i16.Text = " ";
             i16.TextAlign = ContentAlignment.MiddleCenter;
             i16.Click += i1_Click;
             // 
@@ -107,7 +107,7 @@
             i15.Name = "i15";
             i15.Size = new Size(98, 91);
             i15.TabIndex = 13;
-            i15.Text = "c";
+            i15.Text = " ";
             i15.TextAlign = ContentAlignment.MiddleCenter;
             i15.Click += i1_Click;
             // 
@@ -118,7 +118,7 @@
             i14.Name = "i14";
             i14.Size = new Size(98, 91);
             i14.TabIndex = 12;
-            i14.Text = "c";
+            i14.Text = " ";
             i14.TextAlign = ContentAlignment.MiddleCenter;
             i14.Click += i1_Click;
             // 
@@ -129,7 +129,7 @@
             i13.Name = "i13";
             i13.Size = new Size(98, 91);
             i13.TabIndex = 11;
-            i13.Text = "c";
+            i13.Text = " ";
             i13.TextAlign = ContentAlignment.MiddleCenter;
             i13.Click += i1_Click;
             // 
@@ -140,7 +140,7 @@
             i12.Name = "i12";
             i12.Size = new Size(98, 88);
             i12.TabIndex = 10;
-            i12.Text = "c";
+            i12.Text = " ";
             i12.TextAlign = ContentAlignment.MiddleCenter;
             i12.Click += i1_Click;
             // 
@@ -151,7 +151,7 @@
             i11.Name = "i11";
             i11.Size = new Size(98, 88);
             i11.TabIndex = 9;
-            i11.Text = "c";
+            i11.Text = " ";
             i11.TextAlign = ContentAlignment.MiddleCenter;
             i11.Click += i1_Click;
             // 
@@ -162,7 +162,7 @@
             i10.Name = "i10";
             i10.Size = new Size(98, 88);
             i10.TabIndex = 8;
-            i10.Text = "c";
+            i10.Text = " ";
             i10.TextAlign = ContentAlignment.MiddleCenter;
             i10.Click += i1_Click;
             // 
@@ -173,7 +173,7 @@
             i8.Name = "i8";
             i8.Size = new Size(98, 88);
             i8.TabIndex = 6;
-            i8.Text = "c";
+            i8.Text = " ";
             i8.TextAlign = ContentAlignment.MiddleCenter;
             i8.Click += i1_Click;
             // 
@@ -184,7 +184,7 @@
             i7.Name = "i7";
             i7.Size = new Size(98, 88);
             i7.TabIndex = 5;
-            i7.Text = "c";
+            i7.Text = " ";
             i7.TextAlign = ContentAlignment.MiddleCenter;
             i7.Click += i1_Click;
             // 
@@ -195,7 +195,7 @@
             i6.Name = "i6";
             i6.Size = new Size(98, 88);
             i6.TabIndex = 4;
-            i6.Text = "c";
+            i6.Text = " ";
             i6.TextAlign = ContentAlignment.MiddleCenter;
             i6.Click += i1_Click;
             // 
@@ -206,7 +206,7 @@
             i5.Name = "i5";
             i5.Size = new Size(98, 88);
             i5.TabIndex = 3;
-            i5.Text = "c";
+            i5.Text = " ";
             i5.TextAlign = ContentAlignment.MiddleCenter;
             i5.Click += i1_Click;
             // 
@@ -217,7 +217,7 @@
             i4.Name = "i4";
             i4.Size = new Size(98, 88);
             i4.TabIndex = 2;
-            i4.Text = "c";
+            i4.Text = " ";
             i4.TextAlign = ContentAlignment.MiddleCenter;
             i4.Click += i1_Click;
             // 
@@ -228,7 +228,7 @@
             i3.Name = "i3";
             i3.Size = new Size(98, 88);
             i3.TabIndex = 1;
-            i3.Text = "c";
+            i3.Text = " ";
             i3.TextAlign = ContentAlignment.MiddleCenter;
             i3.Click += i1_Click;
             // 
@@ -239,7 +239,7 @@
             i1.Name = "i1";
             i1.Size = new Size(98, 88);
             i1.TabIndex = 0;
-            i1.Text = "c";
+            i1.Text = " ";
             i1.TextAlign = ContentAlignment.MiddleCenter;
             i1.Click += i1_Click;
             // 
@@ -250,7 +250,7 @@
             i2.Name = "i2";
             i2.Size = new Size(98, 88);
             i2.TabIndex = 0;
-            i2.Text = "c";
+            i2.Text = " ";
             i2.TextAlign = ContentAlignment.MiddleCenter;
             i2.Click += i1_Click;
             // 
@@ -261,7 +261,7 @@
             i9.Name = "i9";
             i9.Size = new Size(98, 88);
             i9.TabIndex = 7;
-            i9.Text = "c";
+            i9.Text = " ";
             i9.TextAlign = ContentAlignment.MiddleCenter;
             i9.Click += i1_Click;
             // 

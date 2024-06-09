@@ -5,10 +5,22 @@ namespace Matching_Game_V2
 {
     public partial class Ana_menu : Form
     {
-        int oldScore = Convert.ToInt32(File.ReadAllText("score.txt", Encoding.UTF8));
+        int oldScore = 0;
         public Ana_menu()
         {
             InitializeComponent();
+        }
+        private void ScoreReadEasy()
+        {
+            if (File.Exists("score.txt")) oldScore =Convert.ToInt32(File.ReadAllText("score.txt"));
+        }
+        private void ScoreReadMiddle()
+        {
+            if (File.Exists("scoreMiddle.txt")) oldScore = Convert.ToInt32(File.ReadAllText("scoreMiddle.txt"));
+        }
+        private void ScoreReadHard()
+        {
+            if (File.Exists("scoreHard.txt")) oldScore = Convert.ToInt32(File.ReadAllText("scoreHard.txt"));
         }
         private void btnTek_Click(object sender, EventArgs e)
         {
@@ -34,29 +46,30 @@ namespace Matching_Game_V2
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            oldScore = Convert.ToInt32(File.ReadAllText("score.txt", Encoding.UTF8));
             switch (txtZorluk.SelectedIndex)
             {
                 case 0:
-                    oldScore = Convert.ToInt32(File.ReadAllText("score.txt", Encoding.UTF8));
+                    ScoreReadEasy();
                     if (oldScore != Convert.ToInt32(lblScore.Text))
-                        lblScore.Text = File.ReadAllText("score.txt", Encoding.UTF8);
+                        lblScore.Text = oldScore.ToString();
                     break;
                 case 1:
-                    oldScore = Convert.ToInt32(File.ReadAllText("scoreMiddle.txt", Encoding.UTF8));
+                    ScoreReadMiddle();
                     if (oldScore != Convert.ToInt32(lblScore.Text))
-                        lblScore.Text = File.ReadAllText("scoreMiddle.txt", Encoding.UTF8);
+                        lblScore.Text = oldScore.ToString();
                     break;
                 case 2:
-                    oldScore= Convert.ToInt32(File.ReadAllText("scorehard.txt", Encoding.UTF8));
+                    ScoreReadHard();
                     if (oldScore != Convert.ToInt32(lblScore.Text))
-                        lblScore.Text = File.ReadAllText("scoreHard.txt", Encoding.UTF8);
+                        lblScore.Text = oldScore.ToString();
                     break;
                 default:
-                    lblScore.Text = "0";
+                    lblScore.Text = oldScore.ToString();
                     break;
 
             }
         }
+
+       
     }
 }

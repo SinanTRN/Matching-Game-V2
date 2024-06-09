@@ -200,7 +200,7 @@
             i64.Name = "i64";
             i64.Size = new Size(62, 50);
             i64.TabIndex = 63;
-            i64.Text = "c";
+            i64.Text = " ";
             i64.TextAlign = ContentAlignment.MiddleCenter;
             i64.Click += i1_Click;
             // 
@@ -211,7 +211,7 @@
             i63.Name = "i63";
             i63.Size = new Size(62, 50);
             i63.TabIndex = 62;
-            i63.Text = "c";
+            i63.Text = " ";
             i63.TextAlign = ContentAlignment.MiddleCenter;
             i63.Click += i1_Click;
             // 
@@ -222,7 +222,7 @@
             i62.Name = "i62";
             i62.Size = new Size(62, 50);
             i62.TabIndex = 61;
-            i62.Text = "c";
+            i62.Text = " ";
             i62.TextAlign = ContentAlignment.MiddleCenter;
             i62.Click += i1_Click;
             // 
@@ -233,7 +233,7 @@
             i61.Name = "i61";
             i61.Size = new Size(62, 50);
             i61.TabIndex = 60;
-            i61.Text = "c";
+            i61.Text = " ";
             i61.TextAlign = ContentAlignment.MiddleCenter;
             i61.Click += i1_Click;
             // 
@@ -244,7 +244,7 @@
             i60.Name = "i60";
             i60.Size = new Size(62, 50);
             i60.TabIndex = 59;
-            i60.Text = "c";
+            i60.Text = " ";
             i60.TextAlign = ContentAlignment.MiddleCenter;
             i60.Click += i1_Click;
             // 
@@ -255,7 +255,7 @@
             i59.Name = "i59";
             i59.Size = new Size(62, 50);
             i59.TabIndex = 58;
-            i59.Text = "c";
+            i59.Text = " ";
             i59.TextAlign = ContentAlignment.MiddleCenter;
             i59.Click += i1_Click;
             // 
@@ -266,7 +266,7 @@
             i58.Name = "i58";
             i58.Size = new Size(62, 50);
             i58.TabIndex = 57;
-            i58.Text = "c";
+            i58.Text = " ";
             i58.TextAlign = ContentAlignment.MiddleCenter;
             i58.Click += i1_Click;
             // 
@@ -277,7 +277,7 @@
             i57.Name = "i57";
             i57.Size = new Size(62, 50);
             i57.TabIndex = 56;
-            i57.Text = "c";
+            i57.Text = " ";
             i57.TextAlign = ContentAlignment.MiddleCenter;
             i57.Click += i1_Click;
             // 
@@ -288,7 +288,7 @@
             i56.Name = "i56";
             i56.Size = new Size(62, 50);
             i56.TabIndex = 55;
-            i56.Text = "c";
+            i56.Text = " ";
             i56.TextAlign = ContentAlignment.MiddleCenter;
             i56.Click += i1_Click;
             // 
@@ -299,7 +299,7 @@
             i55.Name = "i55";
             i55.Size = new Size(62, 50);
             i55.TabIndex = 54;
-            i55.Text = "c";
+            i55.Text = " ";
             i55.TextAlign = ContentAlignment.MiddleCenter;
             i55.Click += i1_Click;
             // 
@@ -310,7 +310,7 @@
             i54.Name = "i54";
             i54.Size = new Size(62, 50);
             i54.TabIndex = 53;
-            i54.Text = "c";
+            i54.Text = " ";
             i54.TextAlign = ContentAlignment.MiddleCenter;
             i54.Click += i1_Click;
             // 
@@ -321,7 +321,7 @@
             i53.Name = "i53";
             i53.Size = new Size(62, 50);
             i53.TabIndex = 52;
-            i53.Text = "c";
+            i53.Text = " ";
             i53.TextAlign = ContentAlignment.MiddleCenter;
             i53.Click += i1_Click;
             // 
@@ -332,7 +332,7 @@
             i52.Name = "i52";
             i52.Size = new Size(62, 50);
             i52.TabIndex = 51;
-            i52.Text = "c";
+            i52.Text = " ";
             i52.TextAlign = ContentAlignment.MiddleCenter;
             i52.Click += i1_Click;
             // 
@@ -343,7 +343,7 @@
             i51.Name = "i51";
             i51.Size = new Size(62, 50);
             i51.TabIndex = 50;
-            i51.Text = "c";
+            i51.Text = " ";
             i51.TextAlign = ContentAlignment.MiddleCenter;
             i51.Click += i1_Click;
             // 
@@ -354,7 +354,7 @@
             i50.Name = "i50";
             i50.Size = new Size(62, 50);
             i50.TabIndex = 49;
-            i50.Text = "c";
+            i50.Text = " ";
             i50.TextAlign = ContentAlignment.MiddleCenter;
             i50.Click += i1_Click;
             // 
@@ -365,7 +365,7 @@
             i49.Name = "i49";
             i49.Size = new Size(62, 50);
             i49.TabIndex = 48;
-            i49.Text = "c";
+            i49.Text = " ";
             i49.TextAlign = ContentAlignment.MiddleCenter;
             i49.Click += i1_Click;
             // 
@@ -376,7 +376,7 @@
             i48.Name = "i48";
             i48.Size = new Size(62, 50);
             i48.TabIndex = 47;
-            i48.Text = "c";
+            i48.Text = " ";
             i48.TextAlign = ContentAlignment.MiddleCenter;
             i48.Click += i1_Click;
             // 
@@ -387,7 +387,7 @@
             i47.Name = "i47";
             i47.Size = new Size(62, 50);
             i47.TabIndex = 46;
-            i47.Text = "c";
+            i47.Text = " ";
             i47.TextAlign = ContentAlignment.MiddleCenter;
             i47.Click += i1_Click;
             // 
@@ -398,7 +398,7 @@
             i46.Name = "i46";
             i46.Size = new Size(62, 50);
             i46.TabIndex = 45;
-            i46.Text = "c";
+            i46.Text = " ";
             i46.TextAlign = ContentAlignment.MiddleCenter;
             i46.Click += i1_Click;
             // 
@@ -409,7 +409,7 @@
             i45.Name = "i45";
             i45.Size = new Size(62, 50);
             i45.TabIndex = 44;
-            i45.Text = "c";
+            i45.Text = " ";
             i45.TextAlign = ContentAlignment.MiddleCenter;
             i45.Click += i1_Click;
             // 
@@ -420,7 +420,7 @@
             i44.Name = "i44";
             i44.Size = new Size(62, 50);
             i44.TabIndex = 43;
-            i44.Text = "c";
+            i44.Text = " ";
             i44.TextAlign = ContentAlignment.MiddleCenter;
             i44.Click += i1_Click;
             // 
@@ -431,7 +431,7 @@
             i43.Name = "i43";
             i43.Size = new Size(62, 50);
             i43.TabIndex = 42;
-            i43.Text = "c";
+            i43.Text = " ";
             i43.TextAlign = ContentAlignment.MiddleCenter;
             i43.Click += i1_Click;
             // 
@@ -442,7 +442,7 @@
             i42.Name = "i42";
             i42.Size = new Size(62, 50);
             i42.TabIndex = 41;
-            i42.Text = "c";
+            i42.Text = " ";
             i42.TextAlign = ContentAlignment.MiddleCenter;
             i42.Click += i1_Click;
             // 
@@ -453,7 +453,7 @@
             i41.Name = "i41";
             i41.Size = new Size(62, 50);
             i41.TabIndex = 40;
-            i41.Text = "c";
+            i41.Text = " ";
             i41.TextAlign = ContentAlignment.MiddleCenter;
             i41.Click += i1_Click;
             // 
@@ -464,7 +464,7 @@
             i40.Name = "i40";
             i40.Size = new Size(62, 50);
             i40.TabIndex = 39;
-            i40.Text = "c";
+            i40.Text = " ";
             i40.TextAlign = ContentAlignment.MiddleCenter;
             i40.Click += i1_Click;
             // 
@@ -475,7 +475,7 @@
             i39.Name = "i39";
             i39.Size = new Size(62, 50);
             i39.TabIndex = 38;
-            i39.Text = "c";
+            i39.Text = " ";
             i39.TextAlign = ContentAlignment.MiddleCenter;
             i39.Click += i1_Click;
             // 
@@ -486,7 +486,7 @@
             i38.Name = "i38";
             i38.Size = new Size(62, 50);
             i38.TabIndex = 37;
-            i38.Text = "c";
+            i38.Text = " ";
             i38.TextAlign = ContentAlignment.MiddleCenter;
             i38.Click += i1_Click;
             // 
@@ -497,7 +497,7 @@
             i37.Name = "i37";
             i37.Size = new Size(62, 50);
             i37.TabIndex = 36;
-            i37.Text = "c";
+            i37.Text = " ";
             i37.TextAlign = ContentAlignment.MiddleCenter;
             i37.Click += i1_Click;
             // 
@@ -508,7 +508,7 @@
             i36.Name = "i36";
             i36.Size = new Size(62, 50);
             i36.TabIndex = 35;
-            i36.Text = "c";
+            i36.Text = " ";
             i36.TextAlign = ContentAlignment.MiddleCenter;
             i36.Click += i1_Click;
             // 
@@ -519,7 +519,7 @@
             i35.Name = "i35";
             i35.Size = new Size(62, 50);
             i35.TabIndex = 34;
-            i35.Text = "c";
+            i35.Text = " ";
             i35.TextAlign = ContentAlignment.MiddleCenter;
             i35.Click += i1_Click;
             // 
@@ -530,7 +530,7 @@
             i34.Name = "i34";
             i34.Size = new Size(62, 50);
             i34.TabIndex = 33;
-            i34.Text = "c";
+            i34.Text = " ";
             i34.TextAlign = ContentAlignment.MiddleCenter;
             i34.Click += i1_Click;
             // 
@@ -541,7 +541,7 @@
             i33.Name = "i33";
             i33.Size = new Size(62, 50);
             i33.TabIndex = 32;
-            i33.Text = "c";
+            i33.Text = " ";
             i33.TextAlign = ContentAlignment.MiddleCenter;
             i33.Click += i1_Click;
             // 
@@ -552,7 +552,7 @@
             i32.Name = "i32";
             i32.Size = new Size(62, 50);
             i32.TabIndex = 31;
-            i32.Text = "c";
+            i32.Text = " ";
             i32.TextAlign = ContentAlignment.MiddleCenter;
             i32.Click += i1_Click;
             // 
@@ -563,7 +563,7 @@
             i31.Name = "i31";
             i31.Size = new Size(62, 50);
             i31.TabIndex = 30;
-            i31.Text = "c";
+            i31.Text = " ";
             i31.TextAlign = ContentAlignment.MiddleCenter;
             i31.Click += i1_Click;
             // 
@@ -574,7 +574,7 @@
             i30.Name = "i30";
             i30.Size = new Size(62, 50);
             i30.TabIndex = 29;
-            i30.Text = "c";
+            i30.Text = " ";
             i30.TextAlign = ContentAlignment.MiddleCenter;
             i30.Click += i1_Click;
             // 
@@ -585,7 +585,7 @@
             i29.Name = "i29";
             i29.Size = new Size(62, 50);
             i29.TabIndex = 28;
-            i29.Text = "c";
+            i29.Text = " ";
             i29.TextAlign = ContentAlignment.MiddleCenter;
             i29.Click += i1_Click;
             // 
@@ -596,7 +596,7 @@
             i28.Name = "i28";
             i28.Size = new Size(62, 50);
             i28.TabIndex = 27;
-            i28.Text = "c";
+            i28.Text = " ";
             i28.TextAlign = ContentAlignment.MiddleCenter;
             i28.Click += i1_Click;
             // 
@@ -607,7 +607,7 @@
             i27.Name = "i27";
             i27.Size = new Size(62, 50);
             i27.TabIndex = 26;
-            i27.Text = "c";
+            i27.Text = " ";
             i27.TextAlign = ContentAlignment.MiddleCenter;
             i27.Click += i1_Click;
             // 
@@ -618,7 +618,7 @@
             i26.Name = "i26";
             i26.Size = new Size(62, 50);
             i26.TabIndex = 25;
-            i26.Text = "c";
+            i26.Text = " ";
             i26.TextAlign = ContentAlignment.MiddleCenter;
             i26.Click += i1_Click;
             // 
@@ -629,7 +629,7 @@
             i25.Name = "i25";
             i25.Size = new Size(62, 50);
             i25.TabIndex = 24;
-            i25.Text = "c";
+            i25.Text = " ";
             i25.TextAlign = ContentAlignment.MiddleCenter;
             i25.Click += i1_Click;
             // 
@@ -640,7 +640,7 @@
             i24.Name = "i24";
             i24.Size = new Size(62, 50);
             i24.TabIndex = 23;
-            i24.Text = "c";
+            i24.Text = " ";
             i24.TextAlign = ContentAlignment.MiddleCenter;
             i24.Click += i1_Click;
             // 
@@ -651,7 +651,7 @@
             i23.Name = "i23";
             i23.Size = new Size(62, 50);
             i23.TabIndex = 22;
-            i23.Text = "c";
+            i23.Text = " ";
             i23.TextAlign = ContentAlignment.MiddleCenter;
             i23.Click += i1_Click;
             // 
@@ -662,7 +662,7 @@
             i22.Name = "i22";
             i22.Size = new Size(62, 50);
             i22.TabIndex = 21;
-            i22.Text = "c";
+            i22.Text = " ";
             i22.TextAlign = ContentAlignment.MiddleCenter;
             i22.Click += i1_Click;
             // 
@@ -673,7 +673,7 @@
             i21.Name = "i21";
             i21.Size = new Size(62, 50);
             i21.TabIndex = 20;
-            i21.Text = "c";
+            i21.Text = " ";
             i21.TextAlign = ContentAlignment.MiddleCenter;
             i21.Click += i1_Click;
             // 
@@ -684,7 +684,7 @@
             i20.Name = "i20";
             i20.Size = new Size(62, 50);
             i20.TabIndex = 19;
-            i20.Text = "c";
+            i20.Text = " ";
             i20.TextAlign = ContentAlignment.MiddleCenter;
             i20.Click += i1_Click;
             // 
@@ -695,7 +695,7 @@
             i19.Name = "i19";
             i19.Size = new Size(62, 50);
             i19.TabIndex = 18;
-            i19.Text = "c";
+            i19.Text = " ";
             i19.TextAlign = ContentAlignment.MiddleCenter;
             i19.Click += i1_Click;
             // 
@@ -706,7 +706,7 @@
             i18.Name = "i18";
             i18.Size = new Size(62, 50);
             i18.TabIndex = 17;
-            i18.Text = "c";
+            i18.Text = " ";
             i18.TextAlign = ContentAlignment.MiddleCenter;
             i18.Click += i1_Click;
             // 
@@ -717,7 +717,7 @@
             i17.Name = "i17";
             i17.Size = new Size(62, 50);
             i17.TabIndex = 16;
-            i17.Text = "c";
+            i17.Text = " ";
             i17.TextAlign = ContentAlignment.MiddleCenter;
             i17.Click += i1_Click;
             // 
@@ -728,7 +728,7 @@
             i16.Name = "i16";
             i16.Size = new Size(62, 50);
             i16.TabIndex = 15;
-            i16.Text = "c";
+            i16.Text = " ";
             i16.TextAlign = ContentAlignment.MiddleCenter;
             i16.Click += i1_Click;
             // 
@@ -739,7 +739,7 @@
             i15.Name = "i15";
             i15.Size = new Size(62, 50);
             i15.TabIndex = 14;
-            i15.Text = "c";
+            i15.Text = " ";
             i15.TextAlign = ContentAlignment.MiddleCenter;
             i15.Click += i1_Click;
             // 
@@ -750,7 +750,7 @@
             i14.Name = "i14";
             i14.Size = new Size(62, 50);
             i14.TabIndex = 13;
-            i14.Text = "c";
+            i14.Text = " ";
             i14.TextAlign = ContentAlignment.MiddleCenter;
             i14.Click += i1_Click;
             // 
@@ -761,7 +761,7 @@
             i13.Name = "i13";
             i13.Size = new Size(62, 50);
             i13.TabIndex = 12;
-            i13.Text = "c";
+            i13.Text = " ";
             i13.TextAlign = ContentAlignment.MiddleCenter;
             i13.Click += i1_Click;
             // 
@@ -772,7 +772,7 @@
             i12.Name = "i12";
             i12.Size = new Size(62, 50);
             i12.TabIndex = 11;
-            i12.Text = "c";
+            i12.Text = " ";
             i12.TextAlign = ContentAlignment.MiddleCenter;
             i12.Click += i1_Click;
             // 
@@ -783,7 +783,7 @@
             i11.Name = "i11";
             i11.Size = new Size(62, 50);
             i11.TabIndex = 10;
-            i11.Text = "c";
+            i11.Text = " ";
             i11.TextAlign = ContentAlignment.MiddleCenter;
             i11.Click += i1_Click;
             // 
@@ -794,7 +794,7 @@
             i10.Name = "i10";
             i10.Size = new Size(62, 50);
             i10.TabIndex = 9;
-            i10.Text = "c";
+            i10.Text = " ";
             i10.TextAlign = ContentAlignment.MiddleCenter;
             i10.Click += i1_Click;
             // 
@@ -805,7 +805,7 @@
             i9.Name = "i9";
             i9.Size = new Size(62, 50);
             i9.TabIndex = 8;
-            i9.Text = "c";
+            i9.Text = " ";
             i9.TextAlign = ContentAlignment.MiddleCenter;
             i9.Click += i1_Click;
             // 
@@ -816,7 +816,7 @@
             i8.Name = "i8";
             i8.Size = new Size(62, 50);
             i8.TabIndex = 7;
-            i8.Text = "c";
+            i8.Text = " ";
             i8.TextAlign = ContentAlignment.MiddleCenter;
             i8.Click += i1_Click;
             // 
@@ -827,7 +827,7 @@
             i7.Name = "i7";
             i7.Size = new Size(62, 50);
             i7.TabIndex = 6;
-            i7.Text = "c";
+            i7.Text = " ";
             i7.TextAlign = ContentAlignment.MiddleCenter;
             i7.Click += i1_Click;
             // 
@@ -838,7 +838,7 @@
             i6.Name = "i6";
             i6.Size = new Size(62, 50);
             i6.TabIndex = 5;
-            i6.Text = "c";
+            i6.Text = " ";
             i6.TextAlign = ContentAlignment.MiddleCenter;
             i6.Click += i1_Click;
             // 
@@ -849,7 +849,7 @@
             i5.Name = "i5";
             i5.Size = new Size(62, 50);
             i5.TabIndex = 4;
-            i5.Text = "c";
+            i5.Text = " ";
             i5.TextAlign = ContentAlignment.MiddleCenter;
             i5.Click += i1_Click;
             // 
@@ -860,7 +860,7 @@
             i4.Name = "i4";
             i4.Size = new Size(62, 50);
             i4.TabIndex = 3;
-            i4.Text = "c";
+            i4.Text = " ";
             i4.TextAlign = ContentAlignment.MiddleCenter;
             i4.Click += i1_Click;
             // 
@@ -871,7 +871,7 @@
             i3.Name = "i3";
             i3.Size = new Size(62, 50);
             i3.TabIndex = 2;
-            i3.Text = "c";
+            i3.Text = " ";
             i3.TextAlign = ContentAlignment.MiddleCenter;
             i3.Click += i1_Click;
             // 
@@ -882,7 +882,7 @@
             i2.Name = "i2";
             i2.Size = new Size(62, 50);
             i2.TabIndex = 1;
-            i2.Text = "c";
+            i2.Text = " ";
             i2.TextAlign = ContentAlignment.MiddleCenter;
             i2.Click += i1_Click;
             // 
@@ -893,7 +893,7 @@
             i1.Name = "i1";
             i1.Size = new Size(62, 50);
             i1.TabIndex = 0;
-            i1.Text = "c";
+            i1.Text = " ";
             i1.TextAlign = ContentAlignment.MiddleCenter;
             i1.Click += i1_Click;
             // 
