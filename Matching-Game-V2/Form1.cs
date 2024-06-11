@@ -13,14 +13,19 @@ namespace Matching_Game_V2
         private void ScoreReadEasy()
         {
             if (File.Exists("score.txt")) oldScore =Convert.ToInt32(File.ReadAllText("score.txt"));
+            else oldScore = 0;
+
         }
         private void ScoreReadMiddle()
         {
             if (File.Exists("scoreMiddle.txt")) oldScore = Convert.ToInt32(File.ReadAllText("scoreMiddle.txt"));
+            else oldScore = 0;
         }
         private void ScoreReadHard()
         {
             if (File.Exists("scoreHard.txt")) oldScore = Convert.ToInt32(File.ReadAllText("scoreHard.txt"));
+            else oldScore = 0;
+
         }
         private void btnTek_Click(object sender, EventArgs e)
         {
