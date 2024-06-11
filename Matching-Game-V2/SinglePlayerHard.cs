@@ -33,17 +33,35 @@ namespace Matching_Game_V2
         }
         private int readScoreText()
         {
-            string readScore = "0";
-            if (File.Exists("scoreHard.txt"))
-                readScore = File.ReadAllText("scoreHard.txt", Encoding.UTF8);
-            return Convert.ToInt32(readScore);
+            try
+            {
+                string readScore = "0";
+                if (File.Exists("scoreHard.txt"))
+                    readScore = File.ReadAllText("scoreHard.txt", Encoding.UTF8);
+                return Convert.ToInt32(readScore);
+            }
+            catch
+            {
+                return 0;
+            }
         }
         public void ScoreUpdate()
         {
-            if (!File.Exists("scoreHard.txt")) 
-                File.Create("scoreHard.txt");
-                
-            File.WriteAllText("scoreHard.txt", sure + "", Encoding.UTF8);
+            try
+            {
+                if (!File.Exists("scoreHard.txt"))
+                {
+                    using (File.Create("scoreHard.txt"))
+                    {
+
+                    }
+                }
+                File.WriteAllText("scoreHard.txt", sure + "", Encoding.UTF8);
+            }
+            catch (IOException ex)
+            {
+                MessageBox.Show("Dosyaya erişim sırasında bir hata oluştu", "Dosya Erişim Hatası", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         private void CheckForWinner()
         {
