@@ -59,7 +59,7 @@ namespace Matching_Game_V2
             }
             timer2.Stop();
             timer1.Stop();
-            if(readScoreText()>sure) ScoreUpdate();
+            if(readScoreText()>sure || readScoreText()==0) ScoreUpdate();
             MessageBox.Show(sure + " saniyede bitirdiniz", "Tebrikler");
         }
         private void InitializeIcons()
