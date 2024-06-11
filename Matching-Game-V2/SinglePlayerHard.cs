@@ -21,6 +21,7 @@ namespace Matching_Game_V2
         int score = 10000;
         int sayac = 0;
         int total = 0;
+        bool isClickEnabler = false;
         public SinglePlayerHard()
         {
             InitializeComponent();
@@ -58,6 +59,7 @@ namespace Matching_Game_V2
             }
             timer2.Stop();
             timer1.Stop();
+            isClickEnabler |= false;
             if (readScoreText() > sure||readScoreText()==0) ScoreUpdate();
             MessageBox.Show(sure + " saniyede bitirdiniz", "Tebrikler");
         }
@@ -117,39 +119,43 @@ namespace Matching_Game_V2
         }
         private void i1_Click(object sender, EventArgs e)
         {
-            if (timer2.Enabled == true) return;
-
-            Label clickedLabel = sender as Label;
-
-            if (clickedLabel != null)
+            if (isClickEnabler == true)
             {
-                if (clickedLabel.ForeColor == Color.Black) return;
-                if (firstClicked == null)
+                if (timer2.Enabled == true) return;
+
+                Label clickedLabel = sender as Label;
+
+                if (clickedLabel != null)
                 {
-                    firstClicked = clickedLabel;
-                    firstClicked.ForeColor = Color.Black;
-                    return;
+                    if (clickedLabel.ForeColor == Color.Black) return;
+                    if (firstClicked == null)
+                    {
+                        firstClicked = clickedLabel;
+                        firstClicked.ForeColor = Color.Black;
+                        return;
+                    }
+
+                    secondClicked = clickedLabel;
+                    secondClicked.ForeColor = Color.Black;
+
+                    CheckForWinner();
+
+                    if (firstClicked.Text == secondClicked.Text)
+                    {
+                        firstClicked = null;
+                        secondClicked = null;
+                        sayac++;
+                        return;
+                    }
+                    timer2.Start();
                 }
-
-                secondClicked = clickedLabel;
-                secondClicked.ForeColor = Color.Black;
-
-                CheckForWinner();
-
-                if (firstClicked.Text == secondClicked.Text)
-                {
-                    firstClicked = null;
-                    secondClicked = null;
-                    sayac++;
-                    return;
-                }
-                timer2.Start();
             }
         }
 
         private void btnBasla_Click(object sender, EventArgs e)
         {
             randomAta();
+            isClickEnabler = true;
             sure = 0;
             sayac = 0;
             timer1.Start();
